@@ -94,7 +94,7 @@ This project predicts whether a participant belongs to the **young** (20 –�
 or **old** (60 – 75 y) age group using a single structural MRI volume.
 The network fine‑tunes the *r3d_18* architecture from
 `torchvision.models.video` on resampled 128³ voxels.
-![output (30)](https://github.com/user-attachments/assets/5a17a674-ea13-4696-8cc9-76506cc37547)
+
 
 Run:only_mri_age_resnet.py
 
@@ -120,3 +120,4 @@ run:sleep_awake_30sec_scalogram_resnet.py
 This project predicts **acute mental fatigue** (“tired” vs “awake”) from
 EEG scalograms by fine‑tuning the vision branch of **CLIP ViT‑B/32**:
 Run:sleep_awake_clip.py
+![output (30)](https://github.com/user-attachments/assets/5a17a674-ea13-4696-8cc9-76506cc37547)
